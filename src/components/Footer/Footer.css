@@ -1,0 +1,12 @@
+.footer {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 200;
+  text-transform: uppercase;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-end;  
+}
