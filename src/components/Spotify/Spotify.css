@@ -1,0 +1,17 @@
+.spotify {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: auto;
+}
+
+.wrap {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+iframe {
+  margin: 5px;
+}

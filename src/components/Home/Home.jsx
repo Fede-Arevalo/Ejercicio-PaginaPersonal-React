@@ -26,7 +26,7 @@ const Home = () => {
           </p>
         </div>
 
-        <hr />
+        <hr width="100%" />
 
         <div className="badges">
           <a href="https://api.badgr.io/public/assertions/9yiNmjlTT-mhYuITZ5fiDg">

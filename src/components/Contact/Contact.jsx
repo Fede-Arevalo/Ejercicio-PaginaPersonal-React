@@ -48,7 +48,7 @@ const Contact = () => {
   return (
     <>
       <div className="contact">
-        <div className="wrap">
+        <div className="wrapContact">
           <h1>Contact</h1>
           <form onSubmit={handleSubmit}>
             <input
@@ -64,15 +64,26 @@ const Contact = () => {
               onChange={handleInputChange}
               name="email"
               value={data.email}
-            />           
+            />
             <button type="submit" disabled={btnDisabled}>
               Enviar
             </button>
           </form>
           {message}
+          <iframe
+            title="Map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d197293.724019207!2d-0.5019392151834063!3d39.40796612298359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4cf0efb06f%3A0xb4a351011f7f1d39!2sValencia!5e0!3m2!1ses-419!2ses!4v1669209549068!5m2!1ses-419!2ses"
+            width="99%"
+            height="350"
+            align="center"
+            style={{ test: "border:0;" }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
-      </>
+    </>
   );
 };
 
