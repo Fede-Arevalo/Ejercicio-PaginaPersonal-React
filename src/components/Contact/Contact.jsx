@@ -38,6 +38,7 @@ const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log("sending data..." + data.name + " " + data.email);
+    localStorage.setItem("user", JSON.stringify(data));
     clearState();
     setTimeout(() => {
       navigate("/");
@@ -63,7 +64,7 @@ const Contact = () => {
               onChange={handleInputChange}
               name="email"
               value={data.email}
-            />
+            />           
             <button type="submit" disabled={btnDisabled}>
               Enviar
             </button>
